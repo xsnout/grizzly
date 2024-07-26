@@ -1,0 +1,82 @@
+{
+  "id": 0,
+  "name": "instance1",
+  "databases": [
+    {
+      "id": 1,
+      "name": "database1",
+      "schemas": [
+        {
+          "id": 1,
+          "name": "schema1",
+          "tables": [
+            {
+              "id": 1,
+              "name": "table1",
+              "fields": [
+                {
+                  "id": 0,
+                  "name": "a",
+                  "type": "integer64",
+                  "description": "aaa 100",
+                  "usage": "data"
+                },
+                {
+                  "id": 1,
+                  "name": "b",
+                  "description": "bbb 200",
+                  "type": "float64",
+                  "usage": "data"
+                },
+                {
+                  "id": 2,
+                  "name": "c",
+                  "type": "text",
+                  "usage": "data"
+                },
+                {
+                  "id": 3,
+                  "name": "d",
+                  "type": "boolean",
+                  "usage": "data"
+                },
+                {
+                  "id": 4,
+                  "name": "t1",
+                  "type": "timestamp",
+                  "usage": "time"
+                },
+                {
+                  "id": 5,
+                  "name": "t2",
+                  "type": "timestamp",
+                  "usage": "time"
+                },
+                {
+                  "id": 6,
+                  "name": "rowid",
+                  "type": "integer64",
+                  "usage": "sequence"
+                },
+                {
+                  "id": 7,
+                  "name": "g1",
+                  "type": "integer64",
+                  "description": "g1 888",
+                  "usage": "group"
+                },
+                {
+                  "id": 8,
+                  "name": "g2",
+                  "type": "text",
+                  "description": "g2 999",
+                  "usage": "group"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
